@@ -19,7 +19,7 @@ class SigneesController < ApplicationController
   end 
 
   def destroy
-    signee = Signee.find(:id)
+    signee = Signee.find(params[:id])
     signee.destroy 
     render status: :no_content
   end
