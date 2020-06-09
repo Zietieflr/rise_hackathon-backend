@@ -31,5 +31,5 @@ Petition.destroy_all
 # Signature.create(petition: p1, signee: james)
 
 20.times do
-  Signee.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name)
+  Signee.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, address: Faker::Address.zip_code)
 end 

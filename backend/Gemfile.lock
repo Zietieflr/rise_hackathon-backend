@@ -153,7 +153,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
-  faker (~> 2.12)
+  faker
   listen (~> 3.2)
   puma (~> 4.1)
   rack-cors
