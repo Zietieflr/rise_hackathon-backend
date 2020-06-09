@@ -3817,3 +3817,81 @@ Processing by PetitionsController#show as */*
 Completed 200 OK in 29ms (Views: 27.1ms | ActiveRecord: 0.5ms | Allocations: 4644)
 
 
+Started GET "/petitions/21" for ::1 at 2020-06-09 14:52:04 -0600
+  [1m[35m (7.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PetitionsController#show as */*
+  Parameters: {"first_name"=>"BILLY", "last_name"=>"BOB-JOE", "address"=>80224, "id"=>"21", "petition"=>{}}
+  [1m[36mPetition Load (2.8ms)[0m  [1m[34mSELECT "petitions".* FROM "petitions" WHERE "petitions"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/petitions_controller.rb:8:in `show'
+  [1m[36mSignee Load (1.4ms)[0m  [1m[34mSELECT "signees".* FROM "signees" INNER JOIN "signatures" ON "signees"."id" = "signatures"."signee_id" WHERE "signatures"."petition_id" = ?[0m  [["petition_id", 21]]
+  ↳ app/controllers/petitions_controller.rb:9:in `show'
+Completed 200 OK in 66ms (Views: 30.3ms | ActiveRecord: 6.2ms | Allocations: 19577)
+
+
+Started GET "/petitions/20" for ::1 at 2020-06-09 14:52:29 -0600
+Processing by PetitionsController#show as */*
+  Parameters: {"first_name"=>"BILLY", "last_name"=>"BOB-JOE", "address"=>80224, "id"=>"20", "petition"=>{}}
+  [1m[36mPetition Load (0.2ms)[0m  [1m[34mSELECT "petitions".* FROM "petitions" WHERE "petitions"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/petitions_controller.rb:8:in `show'
+  [1m[36mSignee Load (0.5ms)[0m  [1m[34mSELECT "signees".* FROM "signees" INNER JOIN "signatures" ON "signees"."id" = "signatures"."signee_id" WHERE "signatures"."petition_id" = ?[0m  [["petition_id", 20]]
+  ↳ app/controllers/petitions_controller.rb:9:in `show'
+Completed 200 OK in 7ms (Views: 4.5ms | ActiveRecord: 0.8ms | Allocations: 3690)
+
+
+Started GET "/petitions/19" for ::1 at 2020-06-09 14:52:36 -0600
+Processing by PetitionsController#show as */*
+  Parameters: {"first_name"=>"BILLY", "last_name"=>"BOB-JOE", "address"=>80224, "id"=>"19", "petition"=>{}}
+  [1m[36mPetition Load (0.2ms)[0m  [1m[34mSELECT "petitions".* FROM "petitions" WHERE "petitions"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/petitions_controller.rb:8:in `show'
+  [1m[36mSignee Load (0.2ms)[0m  [1m[34mSELECT "signees".* FROM "signees" INNER JOIN "signatures" ON "signees"."id" = "signatures"."signee_id" WHERE "signatures"."petition_id" = ?[0m  [["petition_id", 19]]
+  ↳ app/controllers/petitions_controller.rb:9:in `show'
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.4ms | Allocations: 4890)
+
+
+Started GET "/petitions/22" for ::1 at 2020-06-09 15:00:57 -0600
+  [1m[35m (6.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PetitionsController#show as */*
+  Parameters: {"first_name"=>"BILLY", "last_name"=>"BOB-JOE", "address"=>80224, "id"=>"22", "petition"=>{}}
+  [1m[36mPetition Load (0.5ms)[0m  [1m[34mSELECT "petitions".* FROM "petitions" WHERE "petitions"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/petitions_controller.rb:8:in `show'
+  [1m[36mSignee Load (1.3ms)[0m  [1m[34mSELECT "signees".* FROM "signees" INNER JOIN "signatures" ON "signees"."id" = "signatures"."signee_id" WHERE "signatures"."petition_id" = ?[0m  [["petition_id", 22]]
+  ↳ app/controllers/petitions_controller.rb:9:in `show'
+Completed 200 OK in 106ms (Views: 75.5ms | ActiveRecord: 4.5ms | Allocations: 16571)
+
+
+Started DELETE "/petitions/22" for ::1 at 2020-06-09 15:01:06 -0600
+Processing by PetitionsController#destroy as */*
+  Parameters: {"first_name"=>"BILLY", "last_name"=>"BOB-JOE", "address"=>80224, "id"=>"22", "petition"=>{}}
+  [1m[36mPetition Load (0.2ms)[0m  [1m[34mSELECT "petitions".* FROM "petitions" WHERE "petitions"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/petitions_controller.rb:23:in `destroy'
+  [1m[36mSignature Load (0.4ms)[0m  [1m[34mSELECT "signatures".* FROM "signatures" WHERE "signatures"."petition_id" = ?[0m  [["petition_id", 22]]
+  ↳ app/controllers/petitions_controller.rb:24:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/petitions_controller.rb:25:in `block in destroy'
+  [1m[36mSignature Destroy (4.1ms)[0m  [1m[31mDELETE FROM "signatures" WHERE "signatures"."id" = ?[0m  [["id", 309]]
+  ↳ app/controllers/petitions_controller.rb:25:in `block in destroy'
+  [1m[35m (9.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/petitions_controller.rb:25:in `block in destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/petitions_controller.rb:27:in `destroy'
+  [1m[36mPetition Destroy (7.2ms)[0m  [1m[31mDELETE FROM "petitions" WHERE "petitions"."id" = ?[0m  [["id", 22]]
+  ↳ app/controllers/petitions_controller.rb:27:in `destroy'
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/petitions_controller.rb:27:in `destroy'
+Completed 204 No Content in 61ms (Views: 0.1ms | ActiveRecord: 25.5ms | Allocations: 8564)
+
+
+Started GET "/petitions/22" for ::1 at 2020-06-09 15:01:26 -0600
+Processing by PetitionsController#show as */*
+  Parameters: {"first_name"=>"BILLY", "last_name"=>"BOB-JOE", "address"=>80224, "id"=>"22", "petition"=>{}}
+  [1m[36mPetition Load (0.2ms)[0m  [1m[34mSELECT "petitions".* FROM "petitions" WHERE "petitions"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/petitions_controller.rb:8:in `show'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.2ms | Allocations: 633)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Petition with 'id'=22):
+  
+app/controllers/petitions_controller.rb:8:in `show'

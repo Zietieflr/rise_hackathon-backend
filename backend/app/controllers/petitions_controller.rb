@@ -21,7 +21,9 @@ class PetitionsController < ApplicationController
 
   def destroy
     petition = Petition.find(params[:id])
-    signatures_for_petition
+    petition.signatures.each do |signature|
+      signature.destroy
+    end
     petition.destroy 
     render status: :no_content
   end
