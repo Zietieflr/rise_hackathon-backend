@@ -360,3 +360,1004 @@ Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 0.5ms | Allocations: 2618)
   [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
   [1m[35m (6.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[36mSignee Load (0.7ms)[0m  [1m[34mSELECT "signees".* FROM "signees" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mSignature Load (0.4ms)[0m  [1m[34mSELECT "signatures".* FROM "signatures"[0m
+  [1m[36mSignee Load (1.2ms)[0m  [1m[34mSELECT "signees".* FROM "signees"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Destroy (0.9ms)[0m  [1m[31mDELETE FROM "signees" WHERE "signees"."id" = ?[0m  [["id", 5]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Destroy (0.3ms)[0m  [1m[31mDELETE FROM "signees" WHERE "signees"."id" = ?[0m  [["id", 6]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Destroy (0.2ms)[0m  [1m[31mDELETE FROM "signees" WHERE "signees"."id" = ?[0m  [["id", 7]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Destroy (0.5ms)[0m  [1m[31mDELETE FROM "signees" WHERE "signees"."id" = ?[0m  [["id", 8]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Destroy (0.4ms)[0m  [1m[31mDELETE FROM "signees" WHERE "signees"."id" = ?[0m  [["id", 9]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Destroy (0.4ms)[0m  [1m[31mDELETE FROM "signees" WHERE "signees"."id" = ?[0m  [["id", 10]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Destroy (0.3ms)[0m  [1m[31mDELETE FROM "signees" WHERE "signees"."id" = ?[0m  [["id", 11]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Destroy (0.3ms)[0m  [1m[31mDELETE FROM "signees" WHERE "signees"."id" = ?[0m  [["id", 12]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Destroy (0.3ms)[0m  [1m[31mDELETE FROM "signees" WHERE "signees"."id" = ?[0m  [["id", 13]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Destroy (0.4ms)[0m  [1m[31mDELETE FROM "signees" WHERE "signees"."id" = ?[0m  [["id", 14]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Destroy (0.2ms)[0m  [1m[31mDELETE FROM "signees" WHERE "signees"."id" = ?[0m  [["id", 15]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Destroy (0.3ms)[0m  [1m[31mDELETE FROM "signees" WHERE "signees"."id" = ?[0m  [["id", 16]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Destroy (0.3ms)[0m  [1m[31mDELETE FROM "signees" WHERE "signees"."id" = ?[0m  [["id", 17]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Destroy (0.3ms)[0m  [1m[31mDELETE FROM "signees" WHERE "signees"."id" = ?[0m  [["id", 18]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Destroy (0.2ms)[0m  [1m[31mDELETE FROM "signees" WHERE "signees"."id" = ?[0m  [["id", 19]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Destroy (0.2ms)[0m  [1m[31mDELETE FROM "signees" WHERE "signees"."id" = ?[0m  [["id", 20]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Destroy (0.3ms)[0m  [1m[31mDELETE FROM "signees" WHERE "signees"."id" = ?[0m  [["id", 21]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Destroy (0.7ms)[0m  [1m[31mDELETE FROM "signees" WHERE "signees"."id" = ?[0m  [["id", 22]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Destroy (0.3ms)[0m  [1m[31mDELETE FROM "signees" WHERE "signees"."id" = ?[0m  [["id", 23]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Destroy (0.2ms)[0m  [1m[31mDELETE FROM "signees" WHERE "signees"."id" = ?[0m  [["id", 24]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPetition Load (0.5ms)[0m  [1m[34mSELECT "petitions".* FROM "petitions"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.7ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Herman"], ["last_name", "Hansen"], ["address", "27564"], ["created_at", "2020-06-09 19:54:09.011259"], ["updated_at", "2020-06-09 19:54:09.011259"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Otto"], ["last_name", "Torphy"], ["address", "10500"], ["created_at", "2020-06-09 19:54:09.017818"], ["updated_at", "2020-06-09 19:54:09.017818"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Omar"], ["last_name", "Purdy"], ["address", "02871"], ["created_at", "2020-06-09 19:54:09.021450"], ["updated_at", "2020-06-09 19:54:09.021450"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Genia"], ["last_name", "Tillman"], ["address", "60658-3844"], ["created_at", "2020-06-09 19:54:09.025411"], ["updated_at", "2020-06-09 19:54:09.025411"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Alvaro"], ["last_name", "Prohaska"], ["address", "02595-4987"], ["created_at", "2020-06-09 19:54:09.029938"], ["updated_at", "2020-06-09 19:54:09.029938"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Simon"], ["last_name", "Crona"], ["address", "30845-5336"], ["created_at", "2020-06-09 19:54:09.036245"], ["updated_at", "2020-06-09 19:54:09.036245"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Darrel"], ["last_name", "Bayer"], ["address", "16983-7639"], ["created_at", "2020-06-09 19:54:09.041801"], ["updated_at", "2020-06-09 19:54:09.041801"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.8ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Yuriko"], ["last_name", "Willms"], ["address", "97980"], ["created_at", "2020-06-09 19:54:09.046676"], ["updated_at", "2020-06-09 19:54:09.046676"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.5ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Sharolyn"], ["last_name", "Murphy"], ["address", "24738-6782"], ["created_at", "2020-06-09 19:54:09.052940"], ["updated_at", "2020-06-09 19:54:09.052940"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Carl"], ["last_name", "Schmidt"], ["address", "44764"], ["created_at", "2020-06-09 19:54:09.058213"], ["updated_at", "2020-06-09 19:54:09.058213"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Marlon"], ["last_name", "Lakin"], ["address", "18402"], ["created_at", "2020-06-09 19:54:09.071941"], ["updated_at", "2020-06-09 19:54:09.071941"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Anton"], ["last_name", "Daniel"], ["address", "68938-2415"], ["created_at", "2020-06-09 19:54:09.081625"], ["updated_at", "2020-06-09 19:54:09.081625"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Kip"], ["last_name", "Cormier"], ["address", "14100"], ["created_at", "2020-06-09 19:54:09.088125"], ["updated_at", "2020-06-09 19:54:09.088125"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Rosaline"], ["last_name", "Spinka"], ["address", "36942"], ["created_at", "2020-06-09 19:54:09.092835"], ["updated_at", "2020-06-09 19:54:09.092835"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Felicitas"], ["last_name", "Stracke"], ["address", "11136"], ["created_at", "2020-06-09 19:54:09.097609"], ["updated_at", "2020-06-09 19:54:09.097609"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Morton"], ["last_name", "Greenfelder"], ["address", "48222-3890"], ["created_at", "2020-06-09 19:54:09.111799"], ["updated_at", "2020-06-09 19:54:09.111799"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jerome"], ["last_name", "Hyatt"], ["address", "00437"], ["created_at", "2020-06-09 19:54:09.118960"], ["updated_at", "2020-06-09 19:54:09.118960"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.5ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Sylvester"], ["last_name", "Koss"], ["address", "77111"], ["created_at", "2020-06-09 19:54:09.127024"], ["updated_at", "2020-06-09 19:54:09.127024"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.5ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Otilia"], ["last_name", "Hirthe"], ["address", "21882-0226"], ["created_at", "2020-06-09 19:54:09.139747"], ["updated_at", "2020-06-09 19:54:09.139747"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Bryan"], ["last_name", "Shields"], ["address", "89959"], ["created_at", "2020-06-09 19:54:09.147000"], ["updated_at", "2020-06-09 19:54:09.147000"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (4.1ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ruthe"], ["last_name", "Maggio"], ["address", "75850"], ["created_at", "2020-06-09 19:54:09.152864"], ["updated_at", "2020-06-09 19:54:09.152864"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Rachael"], ["last_name", "Boyle"], ["address", "00002"], ["created_at", "2020-06-09 19:54:09.161244"], ["updated_at", "2020-06-09 19:54:09.161244"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Candice"], ["last_name", "McGlynn"], ["address", "21293"], ["created_at", "2020-06-09 19:54:09.173344"], ["updated_at", "2020-06-09 19:54:09.173344"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (3.6ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Rafaela"], ["last_name", "Greenholt"], ["address", "07241"], ["created_at", "2020-06-09 19:54:09.178803"], ["updated_at", "2020-06-09 19:54:09.178803"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.6ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Gertude"], ["last_name", "Spinka"], ["address", "89845"], ["created_at", "2020-06-09 19:54:09.190652"], ["updated_at", "2020-06-09 19:54:09.190652"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Garry"], ["last_name", "Erdman"], ["address", "90368"], ["created_at", "2020-06-09 19:54:09.201446"], ["updated_at", "2020-06-09 19:54:09.201446"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Elanor"], ["last_name", "Murray"], ["address", "52399"], ["created_at", "2020-06-09 19:54:09.206306"], ["updated_at", "2020-06-09 19:54:09.206306"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Delicia"], ["last_name", "Farrell"], ["address", "57902-4905"], ["created_at", "2020-06-09 19:54:09.210579"], ["updated_at", "2020-06-09 19:54:09.210579"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Kendall"], ["last_name", "Herman"], ["address", "49046-3426"], ["created_at", "2020-06-09 19:54:09.215521"], ["updated_at", "2020-06-09 19:54:09.215521"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Carol"], ["last_name", "Schulist"], ["address", "27979"], ["created_at", "2020-06-09 19:54:09.219414"], ["updated_at", "2020-06-09 19:54:09.219414"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Emmanuel"], ["last_name", "Zulauf"], ["address", "80050"], ["created_at", "2020-06-09 19:54:09.224536"], ["updated_at", "2020-06-09 19:54:09.224536"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (1.0ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lorenza"], ["last_name", "Considine"], ["address", "93444-7276"], ["created_at", "2020-06-09 19:54:09.230144"], ["updated_at", "2020-06-09 19:54:09.230144"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Derek"], ["last_name", "Schamberger"], ["address", "31417"], ["created_at", "2020-06-09 19:54:09.236291"], ["updated_at", "2020-06-09 19:54:09.236291"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Leonarda"], ["last_name", "Breitenberg"], ["address", "03084"], ["created_at", "2020-06-09 19:54:09.240615"], ["updated_at", "2020-06-09 19:54:09.240615"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.7ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Tama"], ["last_name", "Batz"], ["address", "52326"], ["created_at", "2020-06-09 19:54:09.244270"], ["updated_at", "2020-06-09 19:54:09.244270"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Carl"], ["last_name", "Strosin"], ["address", "49713-4850"], ["created_at", "2020-06-09 19:54:09.253340"], ["updated_at", "2020-06-09 19:54:09.253340"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Amina"], ["last_name", "Volkman"], ["address", "84453-6970"], ["created_at", "2020-06-09 19:54:09.258510"], ["updated_at", "2020-06-09 19:54:09.258510"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Edwardo"], ["last_name", "Johnston"], ["address", "33236-8189"], ["created_at", "2020-06-09 19:54:09.266946"], ["updated_at", "2020-06-09 19:54:09.266946"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Mozell"], ["last_name", "Gottlieb"], ["address", "87610"], ["created_at", "2020-06-09 19:54:09.271286"], ["updated_at", "2020-06-09 19:54:09.271286"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Carmine"], ["last_name", "Satterfield"], ["address", "32189-1713"], ["created_at", "2020-06-09 19:54:09.276751"], ["updated_at", "2020-06-09 19:54:09.276751"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ruben"], ["last_name", "Mosciski"], ["address", "37684"], ["created_at", "2020-06-09 19:54:09.282111"], ["updated_at", "2020-06-09 19:54:09.282111"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Alyce"], ["last_name", "Tromp"], ["address", "72454"], ["created_at", "2020-06-09 19:54:09.287308"], ["updated_at", "2020-06-09 19:54:09.287308"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lilly"], ["last_name", "Cartwright"], ["address", "45845-2682"], ["created_at", "2020-06-09 19:54:09.292623"], ["updated_at", "2020-06-09 19:54:09.292623"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Phylis"], ["last_name", "Durgan"], ["address", "45494-0321"], ["created_at", "2020-06-09 19:54:09.299086"], ["updated_at", "2020-06-09 19:54:09.299086"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Stan"], ["last_name", "Hane"], ["address", "39939-7812"], ["created_at", "2020-06-09 19:54:09.305608"], ["updated_at", "2020-06-09 19:54:09.305608"]]
+  [1m[35m (26.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Fatimah"], ["last_name", "Jones"], ["address", "08554-2844"], ["created_at", "2020-06-09 19:54:09.338626"], ["updated_at", "2020-06-09 19:54:09.338626"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (4.1ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Delia"], ["last_name", "Baumbach"], ["address", "55061-4866"], ["created_at", "2020-06-09 19:54:09.343955"], ["updated_at", "2020-06-09 19:54:09.343955"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Cathi"], ["last_name", "Luettgen"], ["address", "14223"], ["created_at", "2020-06-09 19:54:09.356634"], ["updated_at", "2020-06-09 19:54:09.356634"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ila"], ["last_name", "Keebler"], ["address", "79581"], ["created_at", "2020-06-09 19:54:09.360706"], ["updated_at", "2020-06-09 19:54:09.360706"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Fernande"], ["last_name", "Sanford"], ["address", "93193-7711"], ["created_at", "2020-06-09 19:54:09.370013"], ["updated_at", "2020-06-09 19:54:09.370013"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Dean"], ["last_name", "Spencer"], ["address", "81401-4216"], ["created_at", "2020-06-09 19:54:09.375167"], ["updated_at", "2020-06-09 19:54:09.375167"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Frank"], ["last_name", "Kutch"], ["address", "14379-9096"], ["created_at", "2020-06-09 19:54:09.393433"], ["updated_at", "2020-06-09 19:54:09.393433"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Erika"], ["last_name", "Hintz"], ["address", "89260"], ["created_at", "2020-06-09 19:54:09.422848"], ["updated_at", "2020-06-09 19:54:09.422848"]]
+  [1m[35m (11.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Mathew"], ["last_name", "Sipes"], ["address", "27117-5028"], ["created_at", "2020-06-09 19:54:09.440898"], ["updated_at", "2020-06-09 19:54:09.440898"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (2.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (2.8ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Andres"], ["last_name", "Welch"], ["address", "38585-4865"], ["created_at", "2020-06-09 19:54:09.445585"], ["updated_at", "2020-06-09 19:54:09.445585"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jill"], ["last_name", "Fisher"], ["address", "28637-0713"], ["created_at", "2020-06-09 19:54:09.461088"], ["updated_at", "2020-06-09 19:54:09.461088"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ron"], ["last_name", "Schuppe"], ["address", "78223"], ["created_at", "2020-06-09 19:54:09.475929"], ["updated_at", "2020-06-09 19:54:09.475929"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Beth"], ["last_name", "Bergstrom"], ["address", "88927"], ["created_at", "2020-06-09 19:54:09.487552"], ["updated_at", "2020-06-09 19:54:09.487552"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Inez"], ["last_name", "Hessel"], ["address", "37049"], ["created_at", "2020-06-09 19:54:09.491397"], ["updated_at", "2020-06-09 19:54:09.491397"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jeromy"], ["last_name", "Stiedemann"], ["address", "09292"], ["created_at", "2020-06-09 19:54:09.496617"], ["updated_at", "2020-06-09 19:54:09.496617"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ethan"], ["last_name", "Corwin"], ["address", "46289"], ["created_at", "2020-06-09 19:54:09.503741"], ["updated_at", "2020-06-09 19:54:09.503741"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Damion"], ["last_name", "Dickinson"], ["address", "38612-0634"], ["created_at", "2020-06-09 19:54:09.508087"], ["updated_at", "2020-06-09 19:54:09.508087"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.6ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Wm"], ["last_name", "Roob"], ["address", "70548"], ["created_at", "2020-06-09 19:54:09.513257"], ["updated_at", "2020-06-09 19:54:09.513257"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Renato"], ["last_name", "Hackett"], ["address", "28567-3262"], ["created_at", "2020-06-09 19:54:09.518689"], ["updated_at", "2020-06-09 19:54:09.518689"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Alissa"], ["last_name", "Cruickshank"], ["address", "34213-7157"], ["created_at", "2020-06-09 19:54:09.523098"], ["updated_at", "2020-06-09 19:54:09.523098"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Rick"], ["last_name", "McKenzie"], ["address", "75397-3212"], ["created_at", "2020-06-09 19:54:09.527452"], ["updated_at", "2020-06-09 19:54:09.527452"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Olin"], ["last_name", "Towne"], ["address", "08363"], ["created_at", "2020-06-09 19:54:09.534611"], ["updated_at", "2020-06-09 19:54:09.534611"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Cristi"], ["last_name", "Klein"], ["address", "35668"], ["created_at", "2020-06-09 19:54:09.539742"], ["updated_at", "2020-06-09 19:54:09.539742"]]
+  [1m[35m (6.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.5ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lulu"], ["last_name", "Schuppe"], ["address", "79080"], ["created_at", "2020-06-09 19:54:09.576808"], ["updated_at", "2020-06-09 19:54:09.576808"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (1.0ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Delmer"], ["last_name", "D'Amore"], ["address", "57585"], ["created_at", "2020-06-09 19:54:09.594001"], ["updated_at", "2020-06-09 19:54:09.594001"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Charles"], ["last_name", "Bailey"], ["address", "77198"], ["created_at", "2020-06-09 19:54:09.605261"], ["updated_at", "2020-06-09 19:54:09.605261"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Matt"], ["last_name", "Schmidt"], ["address", "27196"], ["created_at", "2020-06-09 19:54:09.608843"], ["updated_at", "2020-06-09 19:54:09.608843"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Derick"], ["last_name", "Morissette"], ["address", "93813-1214"], ["created_at", "2020-06-09 19:54:09.617934"], ["updated_at", "2020-06-09 19:54:09.617934"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (1.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Hassan"], ["last_name", "Kemmer"], ["address", "63089-9745"], ["created_at", "2020-06-09 19:54:09.623875"], ["updated_at", "2020-06-09 19:54:09.623875"]]
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Elke"], ["last_name", "Nicolas"], ["address", "89110"], ["created_at", "2020-06-09 19:54:09.634809"], ["updated_at", "2020-06-09 19:54:09.634809"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Gary"], ["last_name", "Carter"], ["address", "11038"], ["created_at", "2020-06-09 19:54:09.638944"], ["updated_at", "2020-06-09 19:54:09.638944"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Providencia"], ["last_name", "Johnson"], ["address", "84718-4679"], ["created_at", "2020-06-09 19:54:09.643603"], ["updated_at", "2020-06-09 19:54:09.643603"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Royal"], ["last_name", "Koepp"], ["address", "52300"], ["created_at", "2020-06-09 19:54:09.649579"], ["updated_at", "2020-06-09 19:54:09.649579"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Denis"], ["last_name", "Hilll"], ["address", "54501-9813"], ["created_at", "2020-06-09 19:54:09.653673"], ["updated_at", "2020-06-09 19:54:09.653673"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Fidelia"], ["last_name", "Weber"], ["address", "32417"], ["created_at", "2020-06-09 19:54:09.658668"], ["updated_at", "2020-06-09 19:54:09.658668"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Margy"], ["last_name", "Littel"], ["address", "20777-4982"], ["created_at", "2020-06-09 19:54:09.664862"], ["updated_at", "2020-06-09 19:54:09.664862"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Leesa"], ["last_name", "O'Hara"], ["address", "09781-6780"], ["created_at", "2020-06-09 19:54:09.669673"], ["updated_at", "2020-06-09 19:54:09.669673"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Guillermina"], ["last_name", "Oberbrunner"], ["address", "46836-9880"], ["created_at", "2020-06-09 19:54:09.673871"], ["updated_at", "2020-06-09 19:54:09.673871"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Keren"], ["last_name", "Bosco"], ["address", "62550-2019"], ["created_at", "2020-06-09 19:54:09.678465"], ["updated_at", "2020-06-09 19:54:09.678465"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Genaro"], ["last_name", "Pagac"], ["address", "33947-4849"], ["created_at", "2020-06-09 19:54:09.685020"], ["updated_at", "2020-06-09 19:54:09.685020"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Donn"], ["last_name", "Metz"], ["address", "18490"], ["created_at", "2020-06-09 19:54:09.689238"], ["updated_at", "2020-06-09 19:54:09.689238"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.6ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Herschel"], ["last_name", "Wunsch"], ["address", "88169-0245"], ["created_at", "2020-06-09 19:54:09.694037"], ["updated_at", "2020-06-09 19:54:09.694037"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Alia"], ["last_name", "Abshire"], ["address", "94941-7014"], ["created_at", "2020-06-09 19:54:09.702307"], ["updated_at", "2020-06-09 19:54:09.702307"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Hector"], ["last_name", "Kemmer"], ["address", "37702"], ["created_at", "2020-06-09 19:54:09.707066"], ["updated_at", "2020-06-09 19:54:09.707066"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Philip"], ["last_name", "Kirlin"], ["address", "40826-5408"], ["created_at", "2020-06-09 19:54:09.710233"], ["updated_at", "2020-06-09 19:54:09.710233"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Bernadette"], ["last_name", "Nolan"], ["address", "98703-9050"], ["created_at", "2020-06-09 19:54:09.716799"], ["updated_at", "2020-06-09 19:54:09.716799"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Kennith"], ["last_name", "Veum"], ["address", "33686-9104"], ["created_at", "2020-06-09 19:54:09.723453"], ["updated_at", "2020-06-09 19:54:09.723453"]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Summer"], ["last_name", "Prosacco"], ["address", "64240"], ["created_at", "2020-06-09 19:54:09.736307"], ["updated_at", "2020-06-09 19:54:09.736307"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Buford"], ["last_name", "Klein"], ["address", "00255"], ["created_at", "2020-06-09 19:54:09.740815"], ["updated_at", "2020-06-09 19:54:09.740815"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Essie"], ["last_name", "Hoppe"], ["address", "66312"], ["created_at", "2020-06-09 19:54:09.744545"], ["updated_at", "2020-06-09 19:54:09.744545"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lasonya"], ["last_name", "Bogan"], ["address", "75895-5633"], ["created_at", "2020-06-09 19:54:09.749151"], ["updated_at", "2020-06-09 19:54:09.749151"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Mac"], ["last_name", "Torphy"], ["address", "42524"], ["created_at", "2020-06-09 19:54:09.753927"], ["updated_at", "2020-06-09 19:54:09.753927"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Nigel"], ["last_name", "Kozey"], ["address", "77166"], ["created_at", "2020-06-09 19:54:09.758349"], ["updated_at", "2020-06-09 19:54:09.758349"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Sidney"], ["last_name", "Howell"], ["address", "95579-8395"], ["created_at", "2020-06-09 19:54:09.764779"], ["updated_at", "2020-06-09 19:54:09.764779"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Shizue"], ["last_name", "Abshire"], ["address", "89813-0844"], ["created_at", "2020-06-09 19:54:09.769974"], ["updated_at", "2020-06-09 19:54:09.769974"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Bruce"], ["last_name", "Schroeder"], ["address", "69861"], ["created_at", "2020-06-09 19:54:09.775111"], ["updated_at", "2020-06-09 19:54:09.775111"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (1.9ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Brandon"], ["last_name", "Bashirian"], ["address", "18478-3460"], ["created_at", "2020-06-09 19:54:09.779733"], ["updated_at", "2020-06-09 19:54:09.779733"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Millicent"], ["last_name", "Turcotte"], ["address", "05279"], ["created_at", "2020-06-09 19:54:09.790678"], ["updated_at", "2020-06-09 19:54:09.790678"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Nydia"], ["last_name", "Crooks"], ["address", "92362-8503"], ["created_at", "2020-06-09 19:54:09.800529"], ["updated_at", "2020-06-09 19:54:09.800529"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Corazon"], ["last_name", "Sawayn"], ["address", "91905-7618"], ["created_at", "2020-06-09 19:54:09.805002"], ["updated_at", "2020-06-09 19:54:09.805002"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Elna"], ["last_name", "Brakus"], ["address", "99009"], ["created_at", "2020-06-09 19:54:09.809419"], ["updated_at", "2020-06-09 19:54:09.809419"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Shantay"], ["last_name", "Gorczany"], ["address", "15048"], ["created_at", "2020-06-09 19:54:09.816049"], ["updated_at", "2020-06-09 19:54:09.816049"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Julian"], ["last_name", "Powlowski"], ["address", "59484"], ["created_at", "2020-06-09 19:54:09.820601"], ["updated_at", "2020-06-09 19:54:09.820601"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Shirley"], ["last_name", "Blick"], ["address", "29406"], ["created_at", "2020-06-09 19:54:09.825201"], ["updated_at", "2020-06-09 19:54:09.825201"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.6ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lauri"], ["last_name", "Wehner"], ["address", "05388"], ["created_at", "2020-06-09 19:54:09.830021"], ["updated_at", "2020-06-09 19:54:09.830021"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Cory"], ["last_name", "Skiles"], ["address", "60092-0624"], ["created_at", "2020-06-09 19:54:09.838531"], ["updated_at", "2020-06-09 19:54:09.838531"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Charisse"], ["last_name", "Kertzmann"], ["address", "36919"], ["created_at", "2020-06-09 19:54:09.843536"], ["updated_at", "2020-06-09 19:54:09.843536"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Sumiko"], ["last_name", "Green"], ["address", "54107-6346"], ["created_at", "2020-06-09 19:54:09.847836"], ["updated_at", "2020-06-09 19:54:09.847836"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Minh"], ["last_name", "Berge"], ["address", "02432-0631"], ["created_at", "2020-06-09 19:54:09.852016"], ["updated_at", "2020-06-09 19:54:09.852016"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.2ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Francis"], ["last_name", "Kerluke"], ["address", "40120"], ["created_at", "2020-06-09 19:54:09.856361"], ["updated_at", "2020-06-09 19:54:09.856361"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.6ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Rosendo"], ["last_name", "Terry"], ["address", "39983"], ["created_at", "2020-06-09 19:54:09.860489"], ["updated_at", "2020-06-09 19:54:09.860489"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Genaro"], ["last_name", "Herzog"], ["address", "09416"], ["created_at", "2020-06-09 19:54:09.867694"], ["updated_at", "2020-06-09 19:54:09.867694"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Tianna"], ["last_name", "Okuneva"], ["address", "84955"], ["created_at", "2020-06-09 19:54:09.872155"], ["updated_at", "2020-06-09 19:54:09.872155"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jerry"], ["last_name", "Olson"], ["address", "12953"], ["created_at", "2020-06-09 19:54:09.877070"], ["updated_at", "2020-06-09 19:54:09.877070"]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Felix"], ["last_name", "Bartoletti"], ["address", "83910-0063"], ["created_at", "2020-06-09 19:54:09.887315"], ["updated_at", "2020-06-09 19:54:09.887315"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Delmer"], ["last_name", "Hettinger"], ["address", "39687-2675"], ["created_at", "2020-06-09 19:54:09.892584"], ["updated_at", "2020-06-09 19:54:09.892584"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Benjamin"], ["last_name", "Legros"], ["address", "37257"], ["created_at", "2020-06-09 19:54:09.903534"], ["updated_at", "2020-06-09 19:54:09.903534"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.5ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Indira"], ["last_name", "Smith"], ["address", "33650"], ["created_at", "2020-06-09 19:54:09.956660"], ["updated_at", "2020-06-09 19:54:09.956660"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (1.1ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Phoebe"], ["last_name", "Mann"], ["address", "67051-5282"], ["created_at", "2020-06-09 19:54:09.970509"], ["updated_at", "2020-06-09 19:54:09.970509"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Emmett"], ["last_name", "Nienow"], ["address", "03293"], ["created_at", "2020-06-09 19:54:09.976791"], ["updated_at", "2020-06-09 19:54:09.976791"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.9ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Judy"], ["last_name", "Dibbert"], ["address", "68244"], ["created_at", "2020-06-09 19:54:10.010371"], ["updated_at", "2020-06-09 19:54:10.010371"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Irvin"], ["last_name", "Weissnat"], ["address", "24765-6125"], ["created_at", "2020-06-09 19:54:10.023387"], ["updated_at", "2020-06-09 19:54:10.023387"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.5ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Whitney"], ["last_name", "Barton"], ["address", "49253-9272"], ["created_at", "2020-06-09 19:54:10.027111"], ["updated_at", "2020-06-09 19:54:10.027111"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Antione"], ["last_name", "Rau"], ["address", "84093-4467"], ["created_at", "2020-06-09 19:54:10.043741"], ["updated_at", "2020-06-09 19:54:10.043741"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lynda"], ["last_name", "Lind"], ["address", "69242-3533"], ["created_at", "2020-06-09 19:54:10.049703"], ["updated_at", "2020-06-09 19:54:10.049703"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Arica"], ["last_name", "Reynolds"], ["address", "51706-5357"], ["created_at", "2020-06-09 19:54:10.054856"], ["updated_at", "2020-06-09 19:54:10.054856"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Shaun"], ["last_name", "Fadel"], ["address", "40513-1790"], ["created_at", "2020-06-09 19:54:10.059703"], ["updated_at", "2020-06-09 19:54:10.059703"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Oren"], ["last_name", "O'Hara"], ["address", "82392"], ["created_at", "2020-06-09 19:54:10.066758"], ["updated_at", "2020-06-09 19:54:10.066758"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Stephanie"], ["last_name", "Cole"], ["address", "94321-9212"], ["created_at", "2020-06-09 19:54:10.071226"], ["updated_at", "2020-06-09 19:54:10.071226"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Keri"], ["last_name", "Mann"], ["address", "76144"], ["created_at", "2020-06-09 19:54:10.076319"], ["updated_at", "2020-06-09 19:54:10.076319"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Terica"], ["last_name", "Walter"], ["address", "62958-5120"], ["created_at", "2020-06-09 19:54:10.084620"], ["updated_at", "2020-06-09 19:54:10.084620"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Maryetta"], ["last_name", "Brown"], ["address", "70640-3915"], ["created_at", "2020-06-09 19:54:10.088746"], ["updated_at", "2020-06-09 19:54:10.088746"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Benjamin"], ["last_name", "Balistreri"], ["address", "67999"], ["created_at", "2020-06-09 19:54:10.093279"], ["updated_at", "2020-06-09 19:54:10.093279"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Mason"], ["last_name", "Turner"], ["address", "15695"], ["created_at", "2020-06-09 19:54:10.099899"], ["updated_at", "2020-06-09 19:54:10.099899"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Trey"], ["last_name", "Hoppe"], ["address", "84199-6490"], ["created_at", "2020-06-09 19:54:10.106583"], ["updated_at", "2020-06-09 19:54:10.106583"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (3.5ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jessika"], ["last_name", "McCullough"], ["address", "68855-8241"], ["created_at", "2020-06-09 19:54:10.110608"], ["updated_at", "2020-06-09 19:54:10.110608"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Eddy"], ["last_name", "Hansen"], ["address", "55002"], ["created_at", "2020-06-09 19:54:10.122466"], ["updated_at", "2020-06-09 19:54:10.122466"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.5ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Gertrud"], ["last_name", "Watsica"], ["address", "38955-5399"], ["created_at", "2020-06-09 19:54:10.134117"], ["updated_at", "2020-06-09 19:54:10.134117"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Nadine"], ["last_name", "Collier"], ["address", "90820"], ["created_at", "2020-06-09 19:54:10.140355"], ["updated_at", "2020-06-09 19:54:10.140355"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.4ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ronda"], ["last_name", "Hane"], ["address", "81679-4874"], ["created_at", "2020-06-09 19:54:10.144253"], ["updated_at", "2020-06-09 19:54:10.144253"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Pasquale"], ["last_name", "Stanton"], ["address", "90913"], ["created_at", "2020-06-09 19:54:10.150647"], ["updated_at", "2020-06-09 19:54:10.150647"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Kari"], ["last_name", "Pagac"], ["address", "51486-7168"], ["created_at", "2020-06-09 19:54:10.154951"], ["updated_at", "2020-06-09 19:54:10.154951"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Arica"], ["last_name", "O'Conner"], ["address", "82211"], ["created_at", "2020-06-09 19:54:10.158682"], ["updated_at", "2020-06-09 19:54:10.158682"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.6ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Colby"], ["last_name", "Satterfield"], ["address", "30024-6713"], ["created_at", "2020-06-09 19:54:10.162832"], ["updated_at", "2020-06-09 19:54:10.162832"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignee Create (0.3ms)[0m  [1m[32mINSERT INTO "signees" ("first_name", "last_name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ralph"], ["last_name", "Klein"], ["address", "09791"], ["created_at", "2020-06-09 19:54:10.168309"], ["updated_at", "2020-06-09 19:54:10.168309"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPetition Create (0.3ms)[0m  [1m[32mINSERT INTO "petitions" ("name", "description", "submit_to", "signature_goal", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "More Library Funding"], ["description", "Updating the library inventory to have a greater selection of up-to-date technology books for young minds to be exposed to."], ["submit_to", "Governer Polis"], ["signature_goal", 10000], ["created_at", "2020-06-09 19:54:10.177049"], ["updated_at", "2020-06-09 19:54:10.177049"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPetition Create (0.3ms)[0m  [1m[32mINSERT INTO "petitions" ("name", "description", "submit_to", "signature_goal", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Public Makerspace"], ["description", "A makerspace focused on giving those who cannot afford the memberships at current spaces. Everyone deserves to learn about what can be made with the correct tools."], ["submit_to", "Senator Gardner"], ["signature_goal", 3000], ["created_at", "2020-06-09 19:54:10.182078"], ["updated_at", "2020-06-09 19:54:10.182078"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPetition Create (0.3ms)[0m  [1m[32mINSERT INTO "petitions" ("name", "description", "submit_to", "signature_goal", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Defund Police"], ["description", "The overtly aggressive action of our current protectors has done us little good. This needs to be fixed and this is the simplest solution."], ["submit_to", "Rep. Chris Kennedy"], ["signature_goal", 15000], ["created_at", "2020-06-09 19:54:10.189869"], ["updated_at", "2020-06-09 19:54:10.189869"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPetition Create (0.3ms)[0m  [1m[32mINSERT INTO "petitions" ("name", "description", "submit_to", "signature_goal", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Protestor Defense Fund"], ["description", "Even the most peaceful of protests have been met with violence, and cannot afford the treatment for excercising their rights."], ["submit_to", "Rep. Sonya Jaquez Lewis"], ["signature_goal", 500], ["created_at", "2020-06-09 19:54:10.195238"], ["updated_at", "2020-06-09 19:54:10.195238"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPetition Create (0.3ms)[0m  [1m[32mINSERT INTO "petitions" ("name", "description", "submit_to", "signature_goal", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "End Bail"], ["description", "Bail has become a game of the rich, and is only keeping those with the least ability to flee locked behind bars. This only puts them at greater disadvantage."], ["submit_to", "Rep. Monica Derand"], ["signature_goal", 3000], ["created_at", "2020-06-09 19:54:10.204263"], ["updated_at", "2020-06-09 19:54:10.204263"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPetition Create (0.3ms)[0m  [1m[32mINSERT INTO "petitions" ("name", "description", "submit_to", "signature_goal", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "COVID-19 Research"], ["description", "Little is known about how this disease works, we need to do more to be able to see a future without constant fear."], ["submit_to", "Rep. Stephen Humphrey"], ["signature_goal", 4000], ["created_at", "2020-06-09 19:54:10.208646"], ["updated_at", "2020-06-09 19:54:10.208646"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPetition Create (0.4ms)[0m  [1m[32mINSERT INTO "petitions" ("name", "description", "submit_to", "signature_goal", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Remote Learning for Public Schools Funding"], ["description", "As one of the primary and most essential of all gathering places, schools need to continue to teach. However, there is a MASSIVE disparity in families and schools to be able to make this effective."], ["submit_to", "Rep. Susan Lontine"], ["signature_goal", 20000], ["created_at", "2020-06-09 19:54:10.212844"], ["updated_at", "2020-06-09 19:54:10.212844"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPetition Create (0.3ms)[0m  [1m[32mINSERT INTO "petitions" ("name", "description", "submit_to", "signature_goal", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Aid for Local Businesses"], ["description", "The federal government aid did little to help the smallest businesses make it through these difficult times. As such we need to take that action locally."], ["submit_to", "Rep. Janice Rich"], ["signature_goal", 750], ["created_at", "2020-06-09 19:54:10.218696"], ["updated_at", "2020-06-09 19:54:10.218696"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPetition Create (0.6ms)[0m  [1m[32mINSERT INTO "petitions" ("name", "description", "submit_to", "signature_goal", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "First Responder Protection"], ["description", "With the sudden surge in demand, first responders and other medical workers were left without the necessary protective equipment to properly do their jobs. This needs to have a solution."], ["submit_to", "Rep. Emily Sirota"], ["signature_goal", 950], ["created_at", "2020-06-09 19:54:10.222520"], ["updated_at", "2020-06-09 19:54:10.222520"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mSignee Load (0.8ms)[0m  [1m[34mSELECT "signees".* FROM "signees"[0m
+  [1m[35m (4.6ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.8ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 25], ["created_at", "2020-06-09 19:54:10.261924"], ["updated_at", "2020-06-09 19:54:10.261924"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 8], ["signee_id", 26], ["created_at", "2020-06-09 19:54:10.274412"], ["updated_at", "2020-06-09 19:54:10.274412"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.5ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 4], ["signee_id", 27], ["created_at", "2020-06-09 19:54:10.278613"], ["updated_at", "2020-06-09 19:54:10.278613"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 10], ["signee_id", 28], ["created_at", "2020-06-09 19:54:10.287676"], ["updated_at", "2020-06-09 19:54:10.287676"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.9ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 4], ["signee_id", 29], ["created_at", "2020-06-09 19:54:10.292575"], ["updated_at", "2020-06-09 19:54:10.292575"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 30], ["created_at", "2020-06-09 19:54:10.325547"], ["updated_at", "2020-06-09 19:54:10.325547"]]
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 31], ["created_at", "2020-06-09 19:54:10.337083"], ["updated_at", "2020-06-09 19:54:10.337083"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 32], ["created_at", "2020-06-09 19:54:10.341067"], ["updated_at", "2020-06-09 19:54:10.341067"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 33], ["created_at", "2020-06-09 19:54:10.369320"], ["updated_at", "2020-06-09 19:54:10.369320"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 34], ["created_at", "2020-06-09 19:54:10.374099"], ["updated_at", "2020-06-09 19:54:10.374099"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 6], ["signee_id", 35], ["created_at", "2020-06-09 19:54:10.378795"], ["updated_at", "2020-06-09 19:54:10.378795"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.6ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 36], ["created_at", "2020-06-09 19:54:10.405691"], ["updated_at", "2020-06-09 19:54:10.405691"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 8], ["signee_id", 37], ["created_at", "2020-06-09 19:54:10.410471"], ["updated_at", "2020-06-09 19:54:10.410471"]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 8], ["signee_id", 38], ["created_at", "2020-06-09 19:54:10.418872"], ["updated_at", "2020-06-09 19:54:10.418872"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 39], ["created_at", "2020-06-09 19:54:10.424075"], ["updated_at", "2020-06-09 19:54:10.424075"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.7ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 11], ["signee_id", 40], ["created_at", "2020-06-09 19:54:10.428004"], ["updated_at", "2020-06-09 19:54:10.428004"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.7ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 8], ["signee_id", 41], ["created_at", "2020-06-09 19:54:10.443151"], ["updated_at", "2020-06-09 19:54:10.443151"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.9ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 5], ["signee_id", 42], ["created_at", "2020-06-09 19:54:10.449535"], ["updated_at", "2020-06-09 19:54:10.449535"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 43], ["created_at", "2020-06-09 19:54:10.458093"], ["updated_at", "2020-06-09 19:54:10.458093"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 8], ["signee_id", 44], ["created_at", "2020-06-09 19:54:10.465677"], ["updated_at", "2020-06-09 19:54:10.465677"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.7ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 45], ["created_at", "2020-06-09 19:54:10.470927"], ["updated_at", "2020-06-09 19:54:10.470927"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 4], ["signee_id", 46], ["created_at", "2020-06-09 19:54:10.474921"], ["updated_at", "2020-06-09 19:54:10.474921"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.5ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 47], ["created_at", "2020-06-09 19:54:10.481456"], ["updated_at", "2020-06-09 19:54:10.481456"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 10], ["signee_id", 48], ["created_at", "2020-06-09 19:54:10.487979"], ["updated_at", "2020-06-09 19:54:10.487979"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.9ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 4], ["signee_id", 49], ["created_at", "2020-06-09 19:54:10.493174"], ["updated_at", "2020-06-09 19:54:10.493174"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 8], ["signee_id", 50], ["created_at", "2020-06-09 19:54:10.504842"], ["updated_at", "2020-06-09 19:54:10.504842"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 51], ["created_at", "2020-06-09 19:54:10.509847"], ["updated_at", "2020-06-09 19:54:10.509847"]]
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (1.1ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 52], ["created_at", "2020-06-09 19:54:10.518969"], ["updated_at", "2020-06-09 19:54:10.518969"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.9ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 53], ["created_at", "2020-06-09 19:54:10.529349"], ["updated_at", "2020-06-09 19:54:10.529349"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.5ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 54], ["created_at", "2020-06-09 19:54:10.548681"], ["updated_at", "2020-06-09 19:54:10.548681"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 55], ["created_at", "2020-06-09 19:54:10.554734"], ["updated_at", "2020-06-09 19:54:10.554734"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 4], ["signee_id", 56], ["created_at", "2020-06-09 19:54:10.558503"], ["updated_at", "2020-06-09 19:54:10.558503"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 8], ["signee_id", 57], ["created_at", "2020-06-09 19:54:10.566609"], ["updated_at", "2020-06-09 19:54:10.566609"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 58], ["created_at", "2020-06-09 19:54:10.570628"], ["updated_at", "2020-06-09 19:54:10.570628"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 8], ["signee_id", 59], ["created_at", "2020-06-09 19:54:10.574186"], ["updated_at", "2020-06-09 19:54:10.574186"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.5ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 10], ["signee_id", 60], ["created_at", "2020-06-09 19:54:10.577691"], ["updated_at", "2020-06-09 19:54:10.577691"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 61], ["created_at", "2020-06-09 19:54:10.585442"], ["updated_at", "2020-06-09 19:54:10.585442"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.9ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 4], ["signee_id", 62], ["created_at", "2020-06-09 19:54:10.591058"], ["updated_at", "2020-06-09 19:54:10.591058"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 10], ["signee_id", 63], ["created_at", "2020-06-09 19:54:10.596770"], ["updated_at", "2020-06-09 19:54:10.596770"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 6], ["signee_id", 64], ["created_at", "2020-06-09 19:54:10.603721"], ["updated_at", "2020-06-09 19:54:10.603721"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 65], ["created_at", "2020-06-09 19:54:10.608504"], ["updated_at", "2020-06-09 19:54:10.608504"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.7ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 66], ["created_at", "2020-06-09 19:54:10.613193"], ["updated_at", "2020-06-09 19:54:10.613193"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 4], ["signee_id", 67], ["created_at", "2020-06-09 19:54:10.619552"], ["updated_at", "2020-06-09 19:54:10.619552"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 68], ["created_at", "2020-06-09 19:54:10.623835"], ["updated_at", "2020-06-09 19:54:10.623835"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (3.5ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 69], ["created_at", "2020-06-09 19:54:10.628447"], ["updated_at", "2020-06-09 19:54:10.628447"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 10], ["signee_id", 70], ["created_at", "2020-06-09 19:54:10.637574"], ["updated_at", "2020-06-09 19:54:10.637574"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 71], ["created_at", "2020-06-09 19:54:10.642276"], ["updated_at", "2020-06-09 19:54:10.642276"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 72], ["created_at", "2020-06-09 19:54:10.646696"], ["updated_at", "2020-06-09 19:54:10.646696"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (1.0ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 73], ["created_at", "2020-06-09 19:54:10.651738"], ["updated_at", "2020-06-09 19:54:10.651738"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 74], ["created_at", "2020-06-09 19:54:10.658892"], ["updated_at", "2020-06-09 19:54:10.658892"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.5ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 75], ["created_at", "2020-06-09 19:54:10.667795"], ["updated_at", "2020-06-09 19:54:10.667795"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 76], ["created_at", "2020-06-09 19:54:10.674843"], ["updated_at", "2020-06-09 19:54:10.674843"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (4.1ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 77], ["created_at", "2020-06-09 19:54:10.678951"], ["updated_at", "2020-06-09 19:54:10.678951"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.5ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 8], ["signee_id", 78], ["created_at", "2020-06-09 19:54:10.689571"], ["updated_at", "2020-06-09 19:54:10.689571"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (1.7ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 8], ["signee_id", 79], ["created_at", "2020-06-09 19:54:10.694719"], ["updated_at", "2020-06-09 19:54:10.694719"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 80], ["created_at", "2020-06-09 19:54:10.701566"], ["updated_at", "2020-06-09 19:54:10.701566"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 10], ["signee_id", 81], ["created_at", "2020-06-09 19:54:10.705778"], ["updated_at", "2020-06-09 19:54:10.705778"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 82], ["created_at", "2020-06-09 19:54:10.710025"], ["updated_at", "2020-06-09 19:54:10.710025"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.6ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 4], ["signee_id", 83], ["created_at", "2020-06-09 19:54:10.718310"], ["updated_at", "2020-06-09 19:54:10.718310"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 5], ["signee_id", 84], ["created_at", "2020-06-09 19:54:10.748525"], ["updated_at", "2020-06-09 19:54:10.748525"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.5ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 11], ["signee_id", 85], ["created_at", "2020-06-09 19:54:10.753618"], ["updated_at", "2020-06-09 19:54:10.753618"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 5], ["signee_id", 86], ["created_at", "2020-06-09 19:54:10.758475"], ["updated_at", "2020-06-09 19:54:10.758475"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 11], ["signee_id", 87], ["created_at", "2020-06-09 19:54:10.763096"], ["updated_at", "2020-06-09 19:54:10.763096"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 88], ["created_at", "2020-06-09 19:54:10.768713"], ["updated_at", "2020-06-09 19:54:10.768713"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 4], ["signee_id", 89], ["created_at", "2020-06-09 19:54:10.773399"], ["updated_at", "2020-06-09 19:54:10.773399"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 10], ["signee_id", 90], ["created_at", "2020-06-09 19:54:10.778256"], ["updated_at", "2020-06-09 19:54:10.778256"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 91], ["created_at", "2020-06-09 19:54:10.783762"], ["updated_at", "2020-06-09 19:54:10.783762"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.5ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 4], ["signee_id", 92], ["created_at", "2020-06-09 19:54:10.787827"], ["updated_at", "2020-06-09 19:54:10.787827"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.5ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 93], ["created_at", "2020-06-09 19:54:10.793617"], ["updated_at", "2020-06-09 19:54:10.793617"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.8ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 8], ["signee_id", 94], ["created_at", "2020-06-09 19:54:10.810285"], ["updated_at", "2020-06-09 19:54:10.810285"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 95], ["created_at", "2020-06-09 19:54:10.825561"], ["updated_at", "2020-06-09 19:54:10.825561"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 96], ["created_at", "2020-06-09 19:54:10.838817"], ["updated_at", "2020-06-09 19:54:10.838817"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.5ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 11], ["signee_id", 97], ["created_at", "2020-06-09 19:54:10.843881"], ["updated_at", "2020-06-09 19:54:10.843881"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 11], ["signee_id", 98], ["created_at", "2020-06-09 19:54:10.852533"], ["updated_at", "2020-06-09 19:54:10.852533"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 5], ["signee_id", 99], ["created_at", "2020-06-09 19:54:10.857500"], ["updated_at", "2020-06-09 19:54:10.857500"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.6ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 100], ["created_at", "2020-06-09 19:54:10.861353"], ["updated_at", "2020-06-09 19:54:10.861353"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 10], ["signee_id", 101], ["created_at", "2020-06-09 19:54:10.872228"], ["updated_at", "2020-06-09 19:54:10.872228"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (8.8ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 4], ["signee_id", 102], ["created_at", "2020-06-09 19:54:10.876299"], ["updated_at", "2020-06-09 19:54:10.876299"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 103], ["created_at", "2020-06-09 19:54:10.891074"], ["updated_at", "2020-06-09 19:54:10.891074"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.5ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 104], ["created_at", "2020-06-09 19:54:10.900246"], ["updated_at", "2020-06-09 19:54:10.900246"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 5], ["signee_id", 105], ["created_at", "2020-06-09 19:54:10.906196"], ["updated_at", "2020-06-09 19:54:10.906196"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 5], ["signee_id", 106], ["created_at", "2020-06-09 19:54:10.910185"], ["updated_at", "2020-06-09 19:54:10.910185"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 107], ["created_at", "2020-06-09 19:54:10.921762"], ["updated_at", "2020-06-09 19:54:10.921762"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.5ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 8], ["signee_id", 108], ["created_at", "2020-06-09 19:54:10.926382"], ["updated_at", "2020-06-09 19:54:10.926382"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 109], ["created_at", "2020-06-09 19:54:10.938791"], ["updated_at", "2020-06-09 19:54:10.938791"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 6], ["signee_id", 110], ["created_at", "2020-06-09 19:54:10.942537"], ["updated_at", "2020-06-09 19:54:10.942537"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 111], ["created_at", "2020-06-09 19:54:10.951991"], ["updated_at", "2020-06-09 19:54:10.951991"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 11], ["signee_id", 112], ["created_at", "2020-06-09 19:54:10.956529"], ["updated_at", "2020-06-09 19:54:10.956529"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (3.5ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 5], ["signee_id", 113], ["created_at", "2020-06-09 19:54:10.961197"], ["updated_at", "2020-06-09 19:54:10.961197"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 114], ["created_at", "2020-06-09 19:54:10.969148"], ["updated_at", "2020-06-09 19:54:10.969148"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 11], ["signee_id", 115], ["created_at", "2020-06-09 19:54:10.973533"], ["updated_at", "2020-06-09 19:54:10.973533"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.7ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 116], ["created_at", "2020-06-09 19:54:10.977533"], ["updated_at", "2020-06-09 19:54:10.977533"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 117], ["created_at", "2020-06-09 19:54:10.985812"], ["updated_at", "2020-06-09 19:54:10.985812"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 10], ["signee_id", 118], ["created_at", "2020-06-09 19:54:10.990412"], ["updated_at", "2020-06-09 19:54:10.990412"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.7ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 5], ["signee_id", 119], ["created_at", "2020-06-09 19:54:10.994102"], ["updated_at", "2020-06-09 19:54:10.994102"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 6], ["signee_id", 120], ["created_at", "2020-06-09 19:54:11.002081"], ["updated_at", "2020-06-09 19:54:11.002081"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 8], ["signee_id", 121], ["created_at", "2020-06-09 19:54:11.007221"], ["updated_at", "2020-06-09 19:54:11.007221"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.6ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 10], ["signee_id", 122], ["created_at", "2020-06-09 19:54:11.011819"], ["updated_at", "2020-06-09 19:54:11.011819"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 123], ["created_at", "2020-06-09 19:54:11.021761"], ["updated_at", "2020-06-09 19:54:11.021761"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.6ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 124], ["created_at", "2020-06-09 19:54:11.026699"], ["updated_at", "2020-06-09 19:54:11.026699"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 8], ["signee_id", 125], ["created_at", "2020-06-09 19:54:11.038565"], ["updated_at", "2020-06-09 19:54:11.038565"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 10], ["signee_id", 126], ["created_at", "2020-06-09 19:54:11.042194"], ["updated_at", "2020-06-09 19:54:11.042194"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 127], ["created_at", "2020-06-09 19:54:11.048053"], ["updated_at", "2020-06-09 19:54:11.048053"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 128], ["created_at", "2020-06-09 19:54:11.052747"], ["updated_at", "2020-06-09 19:54:11.052747"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 5], ["signee_id", 129], ["created_at", "2020-06-09 19:54:11.057283"], ["updated_at", "2020-06-09 19:54:11.057283"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 130], ["created_at", "2020-06-09 19:54:11.068790"], ["updated_at", "2020-06-09 19:54:11.068790"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 131], ["created_at", "2020-06-09 19:54:11.073283"], ["updated_at", "2020-06-09 19:54:11.073283"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.9ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 5], ["signee_id", 132], ["created_at", "2020-06-09 19:54:11.077749"], ["updated_at", "2020-06-09 19:54:11.077749"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.8ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 6], ["signee_id", 133], ["created_at", "2020-06-09 19:54:11.086367"], ["updated_at", "2020-06-09 19:54:11.086367"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 134], ["created_at", "2020-06-09 19:54:11.091421"], ["updated_at", "2020-06-09 19:54:11.091421"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.6ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 135], ["created_at", "2020-06-09 19:54:11.101381"], ["updated_at", "2020-06-09 19:54:11.101381"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 11], ["signee_id", 136], ["created_at", "2020-06-09 19:54:11.106296"], ["updated_at", "2020-06-09 19:54:11.106296"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.5ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 6], ["signee_id", 137], ["created_at", "2020-06-09 19:54:11.141102"], ["updated_at", "2020-06-09 19:54:11.141102"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 10], ["signee_id", 138], ["created_at", "2020-06-09 19:54:11.150247"], ["updated_at", "2020-06-09 19:54:11.150247"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 11], ["signee_id", 139], ["created_at", "2020-06-09 19:54:11.155850"], ["updated_at", "2020-06-09 19:54:11.155850"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 4], ["signee_id", 140], ["created_at", "2020-06-09 19:54:11.160078"], ["updated_at", "2020-06-09 19:54:11.160078"]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 10], ["signee_id", 141], ["created_at", "2020-06-09 19:54:11.170544"], ["updated_at", "2020-06-09 19:54:11.170544"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 10], ["signee_id", 142], ["created_at", "2020-06-09 19:54:11.174753"], ["updated_at", "2020-06-09 19:54:11.174753"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 6], ["signee_id", 143], ["created_at", "2020-06-09 19:54:11.178715"], ["updated_at", "2020-06-09 19:54:11.178715"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 144], ["created_at", "2020-06-09 19:54:11.190316"], ["updated_at", "2020-06-09 19:54:11.190316"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 6], ["signee_id", 145], ["created_at", "2020-06-09 19:54:11.205381"], ["updated_at", "2020-06-09 19:54:11.205381"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 10], ["signee_id", 146], ["created_at", "2020-06-09 19:54:11.209738"], ["updated_at", "2020-06-09 19:54:11.209738"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 10], ["signee_id", 147], ["created_at", "2020-06-09 19:54:11.217227"], ["updated_at", "2020-06-09 19:54:11.217227"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 148], ["created_at", "2020-06-09 19:54:11.221993"], ["updated_at", "2020-06-09 19:54:11.221993"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.7ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 10], ["signee_id", 149], ["created_at", "2020-06-09 19:54:11.227766"], ["updated_at", "2020-06-09 19:54:11.227766"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 150], ["created_at", "2020-06-09 19:54:11.237513"], ["updated_at", "2020-06-09 19:54:11.237513"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 11], ["signee_id", 151], ["created_at", "2020-06-09 19:54:11.242506"], ["updated_at", "2020-06-09 19:54:11.242506"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 4], ["signee_id", 152], ["created_at", "2020-06-09 19:54:11.250835"], ["updated_at", "2020-06-09 19:54:11.250835"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.5ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 11], ["signee_id", 153], ["created_at", "2020-06-09 19:54:11.259464"], ["updated_at", "2020-06-09 19:54:11.259464"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 11], ["signee_id", 154], ["created_at", "2020-06-09 19:54:11.268460"], ["updated_at", "2020-06-09 19:54:11.268460"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 155], ["created_at", "2020-06-09 19:54:11.273203"], ["updated_at", "2020-06-09 19:54:11.273203"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (1.1ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 10], ["signee_id", 156], ["created_at", "2020-06-09 19:54:11.277715"], ["updated_at", "2020-06-09 19:54:11.277715"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 10], ["signee_id", 157], ["created_at", "2020-06-09 19:54:11.285814"], ["updated_at", "2020-06-09 19:54:11.285814"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 6], ["signee_id", 158], ["created_at", "2020-06-09 19:54:11.290157"], ["updated_at", "2020-06-09 19:54:11.290157"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 8], ["signee_id", 159], ["created_at", "2020-06-09 19:54:11.301833"], ["updated_at", "2020-06-09 19:54:11.301833"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (1.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 6], ["signee_id", 160], ["created_at", "2020-06-09 19:54:11.311138"], ["updated_at", "2020-06-09 19:54:11.311138"]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 8], ["signee_id", 161], ["created_at", "2020-06-09 19:54:11.353963"], ["updated_at", "2020-06-09 19:54:11.353963"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 162], ["created_at", "2020-06-09 19:54:11.360315"], ["updated_at", "2020-06-09 19:54:11.360315"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.5ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 6], ["signee_id", 163], ["created_at", "2020-06-09 19:54:11.374695"], ["updated_at", "2020-06-09 19:54:11.374695"]]
+  [1m[35m (22.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 164], ["created_at", "2020-06-09 19:54:11.407285"], ["updated_at", "2020-06-09 19:54:11.407285"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 8], ["signee_id", 165], ["created_at", "2020-06-09 19:54:11.417419"], ["updated_at", "2020-06-09 19:54:11.417419"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 9], ["signee_id", 166], ["created_at", "2020-06-09 19:54:11.426024"], ["updated_at", "2020-06-09 19:54:11.426024"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 7], ["signee_id", 167], ["created_at", "2020-06-09 19:54:11.439311"], ["updated_at", "2020-06-09 19:54:11.439311"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.7ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 168], ["created_at", "2020-06-09 19:54:11.444071"], ["updated_at", "2020-06-09 19:54:11.444071"]]
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.3ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 11], ["signee_id", 169], ["created_at", "2020-06-09 19:54:11.457376"], ["updated_at", "2020-06-09 19:54:11.457376"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.6ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 170], ["created_at", "2020-06-09 19:54:11.461375"], ["updated_at", "2020-06-09 19:54:11.461375"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (3.0ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 4], ["signee_id", 171], ["created_at", "2020-06-09 19:54:11.475007"], ["updated_at", "2020-06-09 19:54:11.475007"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 12], ["signee_id", 172], ["created_at", "2020-06-09 19:54:11.487004"], ["updated_at", "2020-06-09 19:54:11.487004"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.4ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 6], ["signee_id", 173], ["created_at", "2020-06-09 19:54:11.491825"], ["updated_at", "2020-06-09 19:54:11.491825"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSignature Create (0.5ms)[0m  [1m[32mINSERT INTO "signatures" ("petition_id", "signee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["petition_id", 6], ["signee_id", 174], ["created_at", "2020-06-09 19:54:11.499416"], ["updated_at", "2020-06-09 19:54:11.499416"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mPetition Load (0.5ms)[0m  [1m[34mSELECT "petitions".* FROM "petitions" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mPetition Load (0.2ms)[0m  [1m[34mSELECT "petitions".* FROM "petitions" ORDER BY "petitions"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mPetition Load (0.2ms)[0m  [1m[34mSELECT "petitions".* FROM "petitions" ORDER BY "petitions"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mSignee Load (0.3ms)[0m  [1m[34mSELECT "signees".* FROM "signees" INNER JOIN "signatures" ON "signees"."id" = "signatures"."signee_id" WHERE "signatures"."petition_id" = ?[0m  [["petition_id", 4]]
+  [1m[36mPetition Load (0.3ms)[0m  [1m[34mSELECT "petitions".* FROM "petitions" ORDER BY "petitions"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mSignee Load (0.2ms)[0m  [1m[34mSELECT "signees".* FROM "signees" INNER JOIN "signatures" ON "signees"."id" = "signatures"."signee_id" WHERE "signatures"."petition_id" = ?[0m  [["petition_id", 12]]
